@@ -1,0 +1,22 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 480
+  ClientWidth = 640
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 3
+  object Label1: TLabel
+    Align = Top
+    StyledSettings = [Family, Style, FontColor]
+    Size.Width = 640.000000000000000000
+    Size.Height = 97.000000000000000000
+    Size.PlatformDefault = False
+    TextSettings.Font.Size = 45.000000000000000000
+    TextSettings.HorzAlign = Center
+    Text = 'Hello World!'
+    TabOrder = 0
+  end
+end
